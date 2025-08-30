@@ -6,7 +6,7 @@ function salarioLiquido() {
     let inss;
     let ir;
 
-    if (dados.salarioBruto < 2.500) {
+    if (dados.salarioBruto < 2500) {
         inss = 0.95;
         salarioLimpo = dados.salarioBruto * inss;
         console.log(`Funcionário: ${dados.nome} 
