@@ -4,7 +4,7 @@ function paises() {
     const crescimentoA = 0.03;
     const crescimentoB = 0.015;
     let anos = 0;
-    
+
     while (paisA < paisB) {
         paisA += paisA * crescimentoA;
         paisB += paisB * crescimentoB;
